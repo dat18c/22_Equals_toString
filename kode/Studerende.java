@@ -100,10 +100,12 @@ public class Studerende
       }
       if (i == kandidat)
       {
+         //kun 1 og kandidat går op i kandidat - så er det et primtal
          return true;
       }
       else
       {
+         //et andet tal går op i kandidat - så er det ikke et primtal
          return false;
       }
      
